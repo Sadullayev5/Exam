@@ -1,0 +1,35 @@
+$main-dark-color: #1a1a1a;
+$second-color: #656567;
+
+.container{
+    margin: 0 80px;
+}
+
+%button{
+    text-decoration: none;
+        padding: 12px 18px;
+        color: $second-color;
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        border: 1px solid #f1f1f3;
+        border-radius: 100px;
+}
+
+%title{
+    text-transform: uppercase;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 52px;
+    color: $main-dark-color;
+}
+
+%text{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $second-color;
+}

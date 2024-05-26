@@ -1,0 +1,140 @@
+footer{
+    border-top: 1px solid #f1f1f3;
+    margin-top: 80px;
+}
+
+.footer__wrapper{
+    display: flex;
+    padding: 80px 0px;
+}
+
+.footer__logo{
+    width: 100%;
+    max-width: 355px;
+    padding: 0px 80px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    border-right: 1px solid #f1f1f3;
+
+    .socials{
+        display: none;
+    }
+}
+
+.footer__mobile__list{
+    display: none;
+}
+
+.footer__input{
+    display: flex;
+    gap: 8px;
+
+    input{
+        width: 232px;
+        padding: 14px 16px;
+        border: 1px solid #f1f1f3;
+        border-radius: 32px;
+
+        &::placeholder{
+            font-family: Manrope;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: $second-color;
+        }
+        
+    }
+
+    button{
+        font-family: Manrope;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: $main-dark-color;
+        padding: 14px 20px;
+        border-radius: 32px;
+        text-decoration: none;
+        background-color: #ffd400;
+        border: none;
+    }
+}
+
+.footer__list{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+
+    ul{
+        width: 100%;
+        max-width: 196px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+        li:first-child{
+            font-family: Manrope;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            color: $main-dark-color;
+            margin-bottom: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: $second-color;
+        }
+    }
+}
+
+.footer__bottom{
+    border-top: 1px solid #f1f1f3;
+    width: 100%;
+    height: 78px;
+
+
+    &__wrapper{
+        padding: 30px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: Manrope;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #98989a;
+        }
+    }
+
+    p{
+        font-family: Manrope;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            color: #98989a;
+    }
+}
+
+.socials{
+    display: flex;
+    gap: 16px;
+}

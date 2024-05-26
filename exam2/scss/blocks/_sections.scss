@@ -1,0 +1,357 @@
+.fashion{
+    margin-top: 150px;
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+.fashion__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        font-family: Manrope;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: $main-dark-color;
+        padding: 14px 20px;
+        border-radius: 32px;
+        text-decoration: none;
+        background-color: #ffd400;
+    }
+}
+
+.fashion__text{
+    width: 100%;
+    max-width: 975px;
+    h2{
+        @extend %title;
+    }
+
+    p{
+        margin-top: 20px;
+        @extend %text;
+    }
+}
+
+.fashion__menu{
+    width: 100%;
+    border-top: 1px solid #f1f1f3;
+    border-bottom: 1px solid #f1f1f3;
+    border-collapse:separate;
+    
+
+    tr{
+        padding: 24px 0px;
+        display: flex;
+    }
+
+    td{
+        padding: 0px 16px;
+        border-right: 1px solid #f1f1f3;
+        border-left: 1px solid #f1f1f3;
+    }
+
+    a{
+        text-decoration: none;
+        color: #98989a;
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+
+        &:hover{
+            color: $main-dark-color;
+        }
+    }
+}
+
+.fashion__card__wrapper{
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.fashion__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    &__image{
+        max-width: 298px;
+        object-fit: cover;
+        position: relative;
+
+        a{
+            position: absolute;
+            border-radius: 50%;
+            margin: 10px;
+            bottom: 0px;
+            right: 0px;
+        }
+    }
+
+}
+
+.fashion__card__text{
+    h3{
+        font-family: Manrope;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main-dark-color;
+    }
+
+    p{
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4c4c4d;
+    }
+}
+
+.experience__content{
+    h2{
+        @extend %title;
+    }
+
+    p{
+        max-width: 1029px;
+        margin-top: 20px;
+        @extend %text;
+    }
+}
+
+.experience{
+    margin-top: 270px;
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+.experience__card__wrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience__card{
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #f1f1f3;
+    border-radius: 16px;
+
+    .card__title{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        h2{
+            max-width: 282px;
+            @extend %title;
+            font-size: 18px;
+            font-weight: 27px;
+        }
+    }
+
+    p{
+        @extend %text;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+.customers{
+    margin-top: 150px;
+
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+.customers__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        a{
+            font-family: Manrope;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            color: $main-dark-color;
+            padding: 14px 20px;
+            border-radius: 32px;
+            text-decoration: none;
+            background-color: #ffd400;
+        }
+}
+
+.customers__text{
+    max-width: 951px;
+
+    h2{
+        @extend %title;
+    }
+
+    p{
+        margin-top: 20px;
+        @extend %text;
+    }
+}
+
+.customers__card__wrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.customers__card{
+    padding: 40px;
+    max-width: 398px;
+
+    p{
+        margin-top: 30px;
+        @extend %text;
+    }
+
+}
+
+.card__profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile__title{
+    width: 100%;
+        max-width: 184px;
+
+    h3{
+        text-transform: uppercase; 
+        font-family: Manrope;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: $main-dark-color;
+
+    }
+}
+
+.questions{
+    margin-top: 150px;
+
+    &__content{
+
+        h2{
+            @extend %title;
+        }
+
+        p{
+            max-width: 1126px;
+            margin-top: 20px;
+            @extend %text;
+        }
+
+        a{
+            display: none;
+        }
+    }
+}
+
+.question__box{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.question{
+    width: 100%;
+    max-width: 628px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border: 1px solid #f1f1f3;
+    border-radius: 14px;
+
+    p{
+        @extend %text;
+        color: $main-dark-color;
+        font-weight: 500;
+    }
+}
+
+.seamless-exp{
+    margin-top: 150px;
+
+    &__content{
+
+        h2{
+            @extend %title;
+        }
+
+        p{
+            max-width: 1126px;
+            margin-top: 20px;
+            @extend %text;
+        }
+    }
+
+    &__card__wrapper{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    &__card{
+        padding: 24px;
+        max-width: 300px;
+        border: 1px solid #f1f1f3;
+        border-radius: 14px;
+    
+        p:first-child{
+            font-family: Manrope;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 90px;
+            color: #e4e4e7;
+        }
+
+        h3{
+            font-family: Manrope;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #333333;
+        }
+
+        p:last-child{
+            @extend %text;
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+}

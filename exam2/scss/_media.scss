@@ -1,0 +1,199 @@
+@media screen and (max-width : 390px){
+   .container{
+    margin: 0 16px;
+   }
+
+   %title{
+    text-transform: uppercase;
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    color: $main-dark-color;
+  }
+
+  %text{
+    font-family: Manrope;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: $second-color;
+}
+
+   .nav__top{
+    padding-top: 40px;
+   }
+   
+    .nav__wrapper{
+        margin-top: 20px;
+        padding: 20px 16px;
+
+        ul{
+            display: none;
+        }
+    }
+
+    .nav__links{
+        a:first-child{
+            width: 100%;
+        }
+
+        a:last-child{
+            display: none;
+        }
+
+        a:nth-child(2){
+            display: block;
+        }
+    }
+
+    .hero__wrapper{
+        flex-direction: column;
+    }
+
+    .hero__link{
+        justify-content: center;
+    }
+
+    .stat{
+        max-width: 164px;
+
+        h3{
+            font-size: 20px;
+            line-height: 27px;
+        }
+    }
+
+    .fashion{
+        margin-top: 100px;
+    }
+
+    .fashion__content{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .fashion__card__wrapper{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience{
+        margin-top: 200px;
+    }
+
+    .experience__card{
+        .card__title{
+            h2{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .customers__content{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .questions__content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        a{
+            margin-top: 20px;
+            display: block;
+            font-family: Manrope;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 21px;
+            color: $main-dark-color;
+            padding: 14px 20px;
+            border-radius: 32px;
+            text-decoration: none;
+            background-color: #ffd400;
+        }
+    }
+
+    .saemless-exp{
+        margin-top: 124px;
+    }
+
+    .seamless-exp__card__wrapper{
+        flex-direction: column;
+    }
+
+    .seamless-exp__card{
+        max-width: 338px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        p:last-child{
+            margin-top: 4px;
+        }
+    }
+
+    .footer__wrapper{
+        padding: 30px 0px;
+        flex-direction: column;
+    }
+
+    .footer__logo{
+        padding: 0px;
+        div:first-child{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .socials{
+            display: block;
+        }
+    }
+
+    .footer__list{
+        display: none;
+    }
+
+    .footer__bottom{
+        &__wrapper{
+            ul{
+                flex-direction: column;
+                gap: 6px;
+            }
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .socials{
+            display: none;
+        }
+    }
+
+    .footer__mobile__list{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px 0px;
+
+        ul{
+            display: flex;
+            gap: 24px;
+
+            a{
+                text-decoration: none;
+                font-family: Manrope;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 18px;
+                color: $main-dark-color;
+            }
+        }
+    }
+}
